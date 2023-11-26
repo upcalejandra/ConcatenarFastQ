@@ -36,7 +36,8 @@ Ambos paquetes se pueden instalar utilizando el comando `sudo apt-get install`.
 	```chmod +x ~/concatenar_fastq.sh --> Remplazar la ruta en la que se haya instalado el programa.
 	sudo ln -s ~/concatenar_fastq.sh /usr/local/bin/```
 ó
-	```export PATH="$PATH:~" --> Esta opcion te permitira poder usar todos los scripts/ejecutables dentro de la carpeta home/user. Una vez reiniciada la terminal se borrara el PATH, procurar activarlo antes de empezar a trabajar.```
+	
+```export PATH="$PATH:~" --> Esta opcion te permitira poder usar todos los scripts/ejecutables dentro de la carpeta home/user. Una vez reiniciada la terminal se borrara el PATH, procurar activarlo antes de empezar a trabajar.```
 
 **Desde GitHub**
 
