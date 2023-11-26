@@ -20,7 +20,7 @@ Este proyecto consiste en el desarrollo de una herramienta bioinformática para 
 
 Para la ejecución eficiente del cálculo de estadísticas de las secuencias e identificación de ORFs, se recomienda instalar de antemano los siguientes comandos y programas:
 - [Comando bc](http://ftp.gnu.org/gnu/bc/) instalado para cálculo de estadísticas de las secuencias.
-- [Programa EMBOSS](ftp://emboss.open-bio.org/pub/EMBOSS/) instalado para la identificación de ORFs.
+- [Programa EMBOSS](https://emboss.sourceforge.net/download/) instalado para la identificación de ORFs.
 - [Bash](https://www.gnu.org/software/bash/) para la ejecución del script.
 
 Ambos paquetes se pueden instalar utilizando el comando `sudo apt-get install`.
@@ -33,16 +33,20 @@ Ambos paquetes se pueden instalar utilizando el comando `sudo apt-get install`.
 2. Navega al directorio donde se encuentren los datos del proyecto.
 3. Ejecuta el script principal: `./concatenar_fastq.sh archivo1.fastq archivo2.fastq ...`
 4. En caso de desear colocarlo como un comando habitual, realizar el siguiente comando:
-	```chmod +x ~/concatenar_fastq.sh --> Remplazar la ruta en la que se haya instalado el programa.
-	sudo ln -s ~/concatenar_fastq.sh /usr/local/bin/```
-ó
-	
-```export PATH="$PATH:~" --> Esta opcion te permitira poder usar todos los scripts/ejecutables dentro de la carpeta home/user. Una vez reiniciada la terminal se borrara el PATH, procurar activarlo antes de empezar a trabajar.```
+	```
+ 	chmod +x ~/concatenar_fastq.sh # Remplazar la ruta en la que se haya instalado el programa.
+ 	sudo ln -s ~/concatenar_fastq.sh /usr/local/bin/
+	```
+	ó
+	```
+	export PATH="$PATH:~" # Esta opción te permitirá poder usar todos los scripts/ejecutables dentro de la carpeta home/user.
+	```
+	Una vez reiniciada la terminal se borrara el PATH, procurar activarlo antes de empezar a trabajar.
 
 **Desde GitHub**
 
 1. Clona el repositorio: `git clone https://github.com/upcalejandra/ConcatenarFastQ`
-2. Navega al directorio del proyecto: `cd ConcatenarFastQ
+2. Navega al directorio del proyecto: `cd ConcatenarFastQ`
 3. Ejecuta el script principal: `./concatenar_fastq.sh archivo1.fastq archivo2.fastq ...`
 
 ## Contribuciones
