@@ -46,7 +46,7 @@ Ambos paquetes se pueden instalar utilizando el comando `sudo apt-get install`.
 **Desde GitHub**
 
 1. Clona el repositorio: `git clone https://github.com/upcalejandra/ConcatenarFastQ`
-2. Navega al directorio del proyecto: `cd ConcatenarFastQ`
+2. Navega al directorio del proyecto: `cd ConcatenarFastQ `
 3. Ejecuta el script principal: `./concatenar_fastq.sh archivo1.fastq archivo2.fastq ...`
 
 ## Contribuciones
